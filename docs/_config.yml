@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: mirceatlx's blog
+title: untitled
 email: mirceatlx@gmail.com
-description: ideas about computers and intelligence
+description: computers and intelligence
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MirceaTudor4
@@ -28,6 +28,8 @@ github_username:  mirceatlx
 
 # Build settings
 theme: minima
+markdown: kramdown
+usemathjax: true
 plugins:
   - jekyll-feed
 
